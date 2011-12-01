@@ -58,5 +58,48 @@ public class Player {
         this.posY = Double.parseDouble(y);
     }
     
-    public int get
+    public int getLife()
+    {
+        return this.life;
+    }
+    
+    private void setLife(int life)
+    {
+        this.life = life;
+    }
+    
+    public double getJump()
+    {
+        return this.jump;
+    }
+    
+    public void setJump(double Jump)
+    {
+        this.jump = Jump;
+    }
+    
+    public int getItem()
+    {
+        return this.item;
+    }
+    
+    public void setItem(int item)
+    {
+        this.item = item;
+    }
+    
+    public int getDeath()
+    {
+        return this.deaths;
+    }
+    
+    public void setDeath(int death)
+    {
+        this.deaths = death;
+    }
+    
+    public void addDeath()
+    {
+        this.deaths ++;
+    }
 }
