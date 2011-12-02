@@ -17,6 +17,9 @@ public class Player {
     private double jump;
     private int item;
     private int deaths;
+    private String sprite;
+    private double hitboxX;
+    private double hitboxY;
     
     public String getName()
     {
@@ -101,5 +104,10 @@ public class Player {
     public void addDeath()
     {
         this.deaths ++;
+    }
+    
+    public void setSprite(String sprite)
+    {
+        this.sprite = sprite;
     }
 }
